@@ -5,7 +5,7 @@ npx --userconfig .npmrc  @byjus-orders/nucleus-gateway -l so
 ## Generating a migration script
 npm run migration:generate -- --name [schema_action_resource_name.js] --skip-verify 
 ## Test DB migration in local machine
-up => npm run db:migrate -- --name 2022.07.13T13.39.06.schema_action_resource_name.js
+up => npm run db:migrate -- --name 2022.07.13T13.39.06.schema_action_resource_name.js <br>
 down => npm run db:migrate:undo -- --name 2022.07.13T13.39.06.schema_action_resource_name.js
 
 
